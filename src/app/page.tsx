@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/testimonial";
 export default function Home() {
   return (
     <main className="bg-black">
+      <h1>Em construção</h1>
       <Header />
       <Hero />
       <About />
