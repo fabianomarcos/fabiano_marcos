@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export function Hero() {
   return (
     <section className="h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-green-900 text-white text-center">
       <Image
-        src="https://media.licdn.com/dms/image/v2/D4D03AQG9wJE-hF1OHQ/profile-displayphoto-shrink_200_200/B4DZeFEUlpGUAg-/0/1750284192535?e=1761177600&v=beta&t=jFCiITjtqVUVpVD3boYm0VZxkVhqyaNtmHl-3Sxgpzo"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQHsboWEn5N3kQ/profile-displayphoto-crop_800_800/B4DZoIbqLQH4AI-/0/1761078070492?e=1769644800&v=beta&t=sxorTegERQ78UkDZa_tw9PJ2S_ba7uTTVUrVdUPFVaI"
         alt="Foto de perfil"
         className="w-40 h-40 rounded-full border-4 border-green-500 shadow-lg mb-6"
         width={160}
@@ -23,5 +23,5 @@ export function Hero() {
         Veja meus projetos
       </a>
     </section>
-  );
+  )
 }

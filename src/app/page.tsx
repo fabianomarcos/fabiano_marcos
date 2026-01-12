@@ -6,7 +6,6 @@ import { Header } from '@/components/header'
 import { Hero } from '@/components/hero'
 import { Projects } from '@/components/projects'
 import { Services } from '@/components/services'
-import { Testimonials } from '@/components/testimonial'
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <About />
       <Services />
       <Projects />
-      <Testimonials />
       <Contact />
       <Footer />
     </main>
